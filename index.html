@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yu Yu Hakusho - Legado Espiritual</title>
+    <meta name="description" content="Um tributo ao anime clássico Yu Yu Hakusho, explorando sua história, personagens e sagas.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="#" class="logo">YYH</a>
+            <nav class="main-nav">
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#personagens">Personagens</a>
+                <a href="#sagas">Sagas</a>
+                <a href="#galeria">Galeria</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h1 class="animate-on-scroll">Yu Yu Hakusho</h1>
+                <p class="animate-on-scroll">O detetive do submundo que conquistou gerações.</p>
+                <a href="#sobre" class="btn animate-on-scroll">Explore o Legado</a>
+            </div>
+        </section>
+
+        <section id="sobre" class="content-section">
+            <div class="container animate-on-scroll">
+                <h2>O Início da Lenda</h2>
+                <p>Yusuke Urameshi era um delinquente juvenil até o dia em que morreu em um ato de altruísmo. Surpreendendo até o Mundo Espiritual, ele ganha uma segunda chance na vida, mas com uma condição: tornar-se um Detetive Espiritual. A partir daí, Yusuke, junto de seus aliados Kuwabara, Kurama e Hiei, enfrenta demônios, monstros e participa de torneios mortais para proteger o Mundo dos Homens.</p>
+            </div>
+        </section>
+
+        <section id="personagens" class="content-section bg-dark">
+            <div class="container animate-on-scroll">
+                <h2>Protagonistas</h2>
+                <div class="character-grid">
+                    <div class="character-card" data-char="yusuke">
+                        <img src="img/yusuke.jpg" alt="Yusuke Urameshi">
+                        <div class="char-name">Yusuke Urameshi</div>
+                    </div>
+                    <div class="character-card" data-char="kuwabara">
+                        <img src="img/kuwabara.jpg" alt="Kazuma Kuwabara">
+                        <div class="char-name">Kazuma Kuwabara</div>
+                    </div>
+                    <div class="character-card" data-char="kurama">
+                        <img src="img/kurama.jpg" alt="Kurama Youko">
+                        <div class="char-name">Kurama</div>
+                    </div>
+                    <div class="character-card" data-char="hiei">
+                        <img src="img/hiei.jpg" alt="Hiei Jaganshi">
+                        <div class="char-name">Hiei</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sagas" class="content-section">
+            <div class="container animate-on-scroll">
+                <h2>As Grandes Sagas</h2>
+                <ul class="sagas-list">
+                    <li><i class="fa-solid fa-ghost"></i> <strong>Detetive Espiritual:</strong> A introdução de Yusuke ao mundo sobrenatural e suas primeiras missões.</li>
+                    <li><i class="fa-solid fa-fist-raised"></i> <strong>Torneio das Trevas:</strong> A equipe Urameshi enfrenta os times mais mortais do Mundo das Trevas pela sobrevivência.</li>
+                    <li><i class="fa-solid fa-door-open"></i> <strong>Saga do Capítulo Negro:</strong> A ascensão de Shinobu Sensui, um ex-detetive espiritual com um plano para destruir a humanidade.</li>
+                    <li><i class="fa-solid fa-crown"></i> <strong>Saga dos Três Reis:</strong> Yusuke viaja ao Makai (Mundo dos Demônios) para encontrar suas raízes e lutar pelo trono.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="galeria" class="content-section bg-dark">
+            <div class="container animate-on-scroll">
+                <h2>Galeria</h2>
+                <div class="gallery-grid">
+                    <img src="img/gallery1.jpg" alt="Equipe Urameshi">
+                    <img src="img/gallery2.jpg" alt="Leigan de Yusuke">
+                    <img src="img/gallery3.jpg" alt="Hiei e o Dragão Negro">
+                    <img src="img/gallery4.jpg" alt="Kurama Yoko">
+                    <img src="img/gallery5.jpg" alt="Kuwabara e sua Espada Espiritual">
+                    <img src="img/gallery6.jpg" alt="Cena de luta do Torneio das Trevas">
+                    <img src="img/gallery7.jpg" alt="Equipe Ichigaki">
+                    <img src="img/gallery8.jpg" alt="Grande luta">
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="main-footer">
+        <div class="container">
+            <p>Criado com <i class="fa-solid fa-heart"></i> por um fãs de Yu Yu Hakusho. Site de portfólio por Orrico.</p>
+            <p>Yu Yu Hakusho &copy; Yoshihiro Togashi/Shueisha, Fuji TV, Studio Pierrot.</p>
+        </div>
+    </footer>
+
+    <div id="character-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div id="modal-body">
+                </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
