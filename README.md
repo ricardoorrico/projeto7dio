@@ -63,9 +63,8 @@ tela.png
 ## 🌐 Publicando Online
 
 Este é um site estático, perfeito para ser hospedado gratuitamente em serviços como:
-- [GitHub Pages](https://pages.github.com/)
-- [Netlify](https://www.netlify.com/)
-- [Vercel](https://vercel.com/)
+
+- [Vercel](https://meuyuyu.vercel.app)
 
 ---
 
