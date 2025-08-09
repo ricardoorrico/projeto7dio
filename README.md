@@ -10,8 +10,6 @@ Um site de página única (One-Page Scroll) totalmente responsivo, criado como u
 
 O site apresenta um design escuro e imersivo, com uma paleta de cores inspirada no Mundo Espiritual e na energia dos personagens. A navegação é fluida e as animações sutis de scroll proporcionam uma experiência de usuário agradável.
 
-*(Dica: Tire um screenshot do seu site pronto e insira aqui!)*
-tela.png
 
 ## ✨ Funcionalidades
 
